@@ -1,7 +1,7 @@
-import Foundation
 
-// https://leetcode.com/problems/minimum-cost-to-hire-k-workers
+/// Problem Link: https://leetcode.com/problems/minimum-cost-to-hire-k-workers
 
+/// Solution
 func mincostToHireWorkers(_ quality: [Int], _ wage: [Int], _ k: Int) -> Double {
     let pairs = zip(quality, wage)
     .map { (q, w) in
@@ -23,3 +23,5 @@ func mincostToHireWorkers(_ quality: [Int], _ wage: [Int], _ k: Int) -> Double {
     }
     return res
 }
+
+/// Test Cases
