@@ -27,8 +27,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "LeetCodeDialyChallenge",
-            dependencies: dependencies,
-            resources: [.copy("Data")]),
+            dependencies: dependencies
+        ),
         .testTarget(
             name: "LeetCodeDialyChallengeTests",
             dependencies: ["LeetCodeDialyChallenge"] + dependencies
