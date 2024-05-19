@@ -1,4 +1,3 @@
-class Solution {
     func maximumSafenessFactor(_ grid: [[Int]]) -> Int {
         let (rowCount, colCount) = (grid.count, grid[0].count)
         func makeDirection(_ point: [Int], _ allDirection: Bool) -> [[Int]] {
@@ -70,7 +69,6 @@ class Solution {
         
         return 0
     }
-}
 /*
 [[0,1,1],
 [0,1,1],
